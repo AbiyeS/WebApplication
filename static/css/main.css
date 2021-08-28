@@ -1,0 +1,220 @@
+/*General*/
+body, input, button, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 1em;
+  color: #508452;
+  font-weight: 400;
+  background: #508452;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #508452;
+}
+a:hover {
+  color: #000;
+}
+
+/*Typography*/
+h1, h2, h3, h4 {
+  font-size: 1.15em;
+  font-weight: normal;
+  margin: 0;
+  line-height: 1em;
+}
+h1 {
+  text-align: center;
+  line-height: 30px;
+}
+
+/*Header*/
+header {
+  width: 100%;
+  background: #fff;
+  padding: 10px 0;
+}
+.icon-logo {
+  width: 30px;
+  height: 30px;
+  background: url('../img/icon-logo.jpg') center no-repeat;
+  background-size: 22px 22px;
+  display: block;
+  float: left;
+}
+.icon-profile {
+  width: 30px;
+  height: 30px;
+  background: url('../img/icon-profile.png') center no-repeat;
+  background-size: 20px 20px;
+  display: block;
+  float: right;
+  margin-right: 10px;
+}
+.icon-power {
+  width: 30px;
+  height: 30px;
+  background: url('../img/icon-power.png') center no-repeat;
+  background-size: 20px 20px;
+  display: block;
+  float: right;
+}
+
+/*Main*/
+.main {
+  max-width: 800px;
+  margin: 40px auto 0;
+  background: #fff;
+  border-radius: 4px;
+  transition: .35s linear;
+  padding-bottom: 20px;
+}
+.skinny {
+  max-width: 320px;
+  padding: 40px;
+}
+nav{
+  padding: 0 0 0 20px;
+  position: relative;
+  line-height: 60px;
+  font-size: .875em;
+}
+nav a {
+  padding: 0 20px 10px;
+}
+nav a.new {
+  float: right;
+  text-transform: uppercase;
+  color: #508452;
+}
+nav a.current {
+  color: #FFB770;
+  border-bottom: 2px solid #FFB770;
+}
+article {
+  border-bottom: 2px solid #ECEEEF;
+  margin: 0;
+  padding: 40px;
+}
+article:last-child {
+  border-bottom: 0;
+}
+article p {
+  margin: 20px 0 0;
+}
+time {
+  font-size: .875em;
+  opacity: .8;
+}
+
+/*Form Elements*/
+form {
+    margin: 0;
+    padding: 40px;
+}
+input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #D3D8DC;
+  outline: 0;
+  background: #fff;
+  padding: 20px 0 4px;
+  margin: 0 0 20px;
+  color: #777B7E;
+}
+input:focus {
+  border-color: #6ECDF7;
+  color: #2C3238;
+}
+textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #D3D8DC;
+  outline: 0;
+  background: #fff;
+  padding: 20px 0 4px;
+  margin: 0 0 20px;
+  color: #777B7E;
+}
+textarea:focus {
+  border-color: #6ECDF7;
+  color: #2C3238;
+}
+button {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #508452;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  opacity: .8;
+  transition: .35s linear;
+}
+/*Profile*/
+.stats {
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.status:hover {
+  opacity: 1;
+  color: inherit;
+}
+.follow {
+  border-color: #70DA8B;
+  color: #4DA463;
+}
+.unfollow {
+  border-color: #FFE6B2;
+  color: #C5A14E;
+}
+
+.disabled {
+  border-color: #D5DDE4;
+  color: #D5DDE4;
+}
+.view {
+    font-size: 0.8em;
+    text-transform: upper;
+}
+
+/*Notifications*/
+.notification {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+.success {
+  background: #70DA8B;
+  color: #4DA463;
+}
+.error {
+  background: #FFE6B2;
+  color: #C5A14E;
+  margin-bottom: 20px;
+}
+
+
+/*Grid*/
+.row {
+  max-width: 800px;
+  padding: 0 40px;
+  margin: 0 auto;
+  transition: .35s linear;
+}
+.row:before, .row:after {
+  content: '';
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.grid-33{
+    display: inline-block;
+  float: left;
+  width: 33%;
+}
